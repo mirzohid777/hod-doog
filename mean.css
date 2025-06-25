@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* header start */
+header {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px #E5E5E5;
+}
+
+.header-navbar {
+    display: flex;
+    gap: 10px;
+}
+
+.bloc {
+    display: flex;
+    gap: 20px;
+}
+
+.div1 {
+    width: 256px;
+    height: 36px;
+    background-color: #FC004A;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #FC004A;
+    width: 60px;
+    height: 25px;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.div2 {
+    width: 1300px;
+    padding: 90px;
+}
+
+/* header end */
+
+
+/* main start */
+
+.div4 {
+    font-size: 40px;
+    position: relative;
+    left: 90px;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.box {
+    width: 260px;
+    height: 380px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px 5px #0000001A;
+    border-radius: 15px;
+}
+
+.box h4 {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.box h5 {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #FC004A;
+}
+
+.div3 {
+    position: relative;
+    left: 200px;
+    top: -10px;
+}
+
+/* main end */
+
+/* footer start */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+
+footer h5 {
+    font-size: 20px;
+}
+
+/* footer end */
+
+
+@media(max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .div2 {
+        width: 773px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .header-navbar img {
+        display: none;
+    }
+
+    .main-box {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box {
+        width: 210px;
+        height: 310px;
+    }
+
+    .div3 {
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+
+    .box h4 {
+        position: absolute;
+        top: 170px;
+    }
+
+    .box h5 {
+        position: absolute;
+        top: 200px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+}
+
+
+@media(max-width: 390px) {
+    a {
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .div1 {
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .div2 {
+        width: 350px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    .box {
+        width: 170px;
+        height: 300px;
+    }
+
+    .box h4 {
+        font-size: 14px;
+    }
+
+    .box h5 {
+        font-size: 14px;
+    }
+
+    .div5 {
+        width: 170px;
+    }
+
+    .main-box {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .div3 {
+        position: absolute;
+        left: 120px;
+    }
+
+    footer {
+        width: 370px;
+    }
+
+    footer h5 {
+        font-size: 10px;
+    }
+
+    .div6{
+        position: absolute;
+        width: 130px;
+        height: 20px;
+        position: relative;
+        top: -20px;
+        right: 180px;
+    }
+}
+
+@media(max-width: 412px){
+        a {
+        font-size: 8px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .div1 {
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .div2 {
+        width: 350px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+
+    .box {
+        width: 170px;
+        height: 300px;
+    }
+
+    .box h4 {
+        font-size: 14px;
+    }
+
+    .box h5 {
+        font-size: 14px;
+    }
+
+    .div5 {
+        width: 170px;
+    }
+
+    .main-box {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .div3 {
+        position: absolute;
+        left: 120px;
+    }
+
+    footer {
+        width: 370px;
+    }
+
+    footer h5 {
+        font-size: 10px;
+    }
+
+    .div6{
+        position: absolute;
+        width: 130px;
+        height: 20px;
+        position: relative;
+        top: -20px;
+        right: 180px;
+    }
+}
